@@ -197,7 +197,6 @@ class App extends React.Component {
     photo.visible = !visible;
     let newThumb = blank;
     for (let i = album.images.length - 1; i >= 0; --i) {
-      console.log(i);
       if (album.images[i].visible) {
         newThumb = album.images[i].img;
         break;
