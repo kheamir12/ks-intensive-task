@@ -1,0 +1,189 @@
+/*Header*/
+/*     */
+
+.header {
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+  width: 100%;
+  min-height: 140px;
+
+  text-align: center;
+  background-color: white;
+}
+
+.left-arrow {
+  margin-left: 10px;
+  border: solid dimgray;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 5px;
+
+  transform: rotate(135deg);
+}
+
+.back-button {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 180px;
+  height: auto;
+
+  color: dimgray;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.back-button:hover {
+  color: black;
+}
+
+.back-button:hover .left-arrow {
+  border-color: black;
+}
+
+.label {
+  position: relative;
+
+  font-size: 60px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.header-buttons {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(12px, 40%, 40%);
+
+  margin-bottom: 20px;
+
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+}
+
+.button {
+  cursor: pointer;
+}
+.active-button {
+  color: gray;
+  cursor: pointer;
+}
+
+.active-button:hover {
+  color: black;
+}
+
+/* Grid */
+/*     */
+
+.grid {
+  display: grid;
+  place-items: center;
+  z-index: 0;
+  margin-top: 3px;
+
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+}
+
+.albums {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.photos {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.cell {
+  box-sizing: border-box;
+  position: relative;
+  padding-bottom: 100%;
+
+  width: 100%;
+  min-width: 150px;
+  height: 0;
+
+  transition-property: all;
+  transition-duration: 4s;
+  transition-delay: 2s;
+}
+
+.cell:hover {
+  outline: 2px solid darkseagreen;
+}
+
+.cell:hover .hide-button {
+  visibility: visible;
+}
+
+.cell:hover .photo-name {
+  visibility: visible;
+}
+
+.album-name {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+
+  width: 100%;
+  height: fit-content;
+
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.photo-name {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+
+  width: 100%;
+  height: fit-content;
+
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  visibility: hidden;
+}
+
+.album-photos-quantity {
+  position: absolute;
+  top: 0;
+  text-align: center;
+
+  height: fit-content;
+  width: fit-content;
+
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.hide-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  visibility: hidden;
+
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  cursor: pointer;
+
+  height: fit-content;
+  width: fit-content;
+}
+
+.hide-button:hover {
+  color: skyblue;
+}
+
+img {
+  cursor: pointer;
+  width: 100%;
+}
