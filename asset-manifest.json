@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ks-intensive-task/static/css/main.8287a4c7.chunk.css",
+    "main.js": "/ks-intensive-task/static/js/main.87836a74.chunk.js",
+    "main.js.map": "/ks-intensive-task/static/js/main.87836a74.chunk.js.map",
+    "runtime-main.js": "/ks-intensive-task/static/js/runtime-main.09834f46.js",
+    "runtime-main.js.map": "/ks-intensive-task/static/js/runtime-main.09834f46.js.map",
+    "static/js/2.db1d6a28.chunk.js": "/ks-intensive-task/static/js/2.db1d6a28.chunk.js",
+    "static/js/2.db1d6a28.chunk.js.map": "/ks-intensive-task/static/js/2.db1d6a28.chunk.js.map",
+    "static/js/3.108f4c86.chunk.js": "/ks-intensive-task/static/js/3.108f4c86.chunk.js",
+    "static/js/3.108f4c86.chunk.js.map": "/ks-intensive-task/static/js/3.108f4c86.chunk.js.map",
+    "index.html": "/ks-intensive-task/index.html",
+    "static/css/main.8287a4c7.chunk.css.map": "/ks-intensive-task/static/css/main.8287a4c7.chunk.css.map",
+    "static/js/2.db1d6a28.chunk.js.LICENSE.txt": "/ks-intensive-task/static/js/2.db1d6a28.chunk.js.LICENSE.txt",
+    "static/media/blank.f2d5803b.jpg": "/ks-intensive-task/static/media/blank.f2d5803b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09834f46.js",
+    "static/js/2.db1d6a28.chunk.js",
+    "static/css/main.8287a4c7.chunk.css",
+    "static/js/main.87836a74.chunk.js"
+  ]
+}
